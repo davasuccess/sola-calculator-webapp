@@ -1,0 +1,55 @@
+body{
+        padding:20px;
+        margin-left: 5%;
+        font-family: sans-serif;
+        font-size: 25px;
+}
+header{
+    float: right;
+    color:steelblue;
+    position: fixed;
+    top:10px;
+    left: 60%;
+}
+fieldset legend{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  fieldset legend :hover{
+      color: yellowgreen;
+      font-style: oblique;
+      cursor: pointer;
+  }
+form{
+    position: relative;
+    width: 40%;
+    left: 140px;
+
+}
+fieldset {
+    border-color: blueviolet;
+    width :0 auto;
+    height: auto;
+    padding:10px;
+    margin: 10px;
+    float: left;
+    position: relative;
+ }
+ fieldset #map{
+    position: absolute;
+ }
+ #btnsub,
+ button{
+     
+    margin-top:40px ;
+    position: inherit;
+
+ }
+ input[type="number"]{
+     display:block;
+     
+ }
+ 
